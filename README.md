@@ -3,8 +3,10 @@ creates wireguard vanity public key in docker. wireguard-vanity-address has been
 
 ### Usage: interactive
 
-- `docker run -it --rm --network none -e NAME="john" kongkrit/wireguard-vanity-address` and it will print working wireguard public key that contains the word **john**:
+- `docker run -it --rm --network none -e NAME="john" kongkrit/wireguard-vanity-address` and it will print working wireguard public key that contains the word **john**. 
+- **The longer the name is, the slower the search.** Practical length is probably around 4 characters if you don't want to burn too much CPU time.
 
+- Output from docker will look something like this:
 ```
 searching for 'john' in pubkey[0..10], one of every 149796 keys should match
 one trial takes 24.8 us, CPU cores available: 4
