@@ -4,7 +4,8 @@ creates wireguard vanity public key in docker. wireguard-vanity-address has been
 ### Usage: interactive
 
 - `docker run -it --rm --network none -e NAME="john" kongkrit/wireguard-vanity-address` and it will print working wireguard public key that contains the word **john**.
-- You may want to limit CPU time that docker use. For example, suppose you have a 4-core system, adding flag `--cpus 2` will limit docker to "2 CPUs equivalent" of total CPU usage.
+- You may want to limit CPU time that docker use. For example, suppose you have a 4-core system, adding flag \
+  `--cpus 2` will limit docker to "2 CPUs equivalent" of total CPU usage.
 - **The longer the name is, the slower the search.** Practical length is probably around 4 characters if you don't want to burn too much CPU time.
 
 - Output from docker will look something like this:
