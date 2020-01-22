@@ -1,5 +1,5 @@
 # wireguard-vanity-address
-creates wireguard vanity public key in docker. wireguard-vanity-address has been precompiled from https://github.com/warner/wireguard-vanity-address to keep the docker image size small.
+creates wireguard vanity public key in docker. wireguard-vanity-address has been precompiled from https://github.com/warner/wireguard-vanity-address (for x86_64 only) to keep the docker image size small.
 
 ### Usage: interactive
 
