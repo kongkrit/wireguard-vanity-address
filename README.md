@@ -22,7 +22,7 @@ private 6M9Je7aO+DLEjaWMIxy/x/2zRQhiBo0IPbaMPzYrVFY=  public Vuqo2DjoHNdzSVjjrMR
 private 6MmDr0u+LtM4wNtORKMTSlRxldwkYCO9mLV08mDuzU4=  public NjoHNY6U03+VFa8QxipMl4nC3wJ+wgEK4LyaFK/CTCU=
 ```
 
-- Instead of using docker run's `-it` flag, you can use `-d` flag as well, but you will have to monitor the log file
+- Instead of using `docker run` with `-it` flag, you can use `-d` flag as well, but you will have to monitor the log file yourself. The container will run forever until you manually stop it.
 
 ### Todo:
 
